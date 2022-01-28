@@ -1,0 +1,36 @@
+body{
+  margin:0;
+}
+a {
+color:black;
+text-decoration: none;
+}
+h1 {
+  font-size:60px;
+  text-align:center;
+  border-bottom: 4px solid gray;
+  margin:0;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  border: 10px solid yellow;
+  padding:10px;
+  margin:0;
+}
+h3 {
+  text-align: center;
+}
+ol {font-size:20px;
+  border-right: 2px solid gray;
+  width:150px;
+  padding:20px;
+  margin:0;
+}
+#photo{
+  display:grid;
+  grid-template-columns: 220px 1fr
+}
+#photo ol{padding-left: 33px}
